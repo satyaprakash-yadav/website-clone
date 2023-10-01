@@ -1,0 +1,105 @@
+#para2 {
+    margin-top: 14rem;
+    text-align: center;
+}
+
+#container {
+    text-align: center;
+
+    >img {
+        margin: 3rem;
+        height: 4em;
+        margin-bottom: 20rem;
+    }
+}
+
+.background {
+    background-image: url('../assets/team.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.card {
+    width: 35%;
+    margin-top: -12rem;
+    background-color: white;
+    margin-left: 2rem;
+    padding: 3rem 5rem;
+    border: none;
+    font-size: large;
+    color: $color2;
+    animation: MoveUpDown 1s linear infinite;
+    animation-iteration-count: 1;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+@keyframes MoveUpDown {
+
+    0%,
+    100% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 100px;
+    }
+}
+
+.container {
+
+    // padding: 2px 16px;
+    >h1 {
+        font-size: 2rem;
+        color: $color4;
+        margin-top: 2rem;
+    }
+
+    >p {
+        letter-spacing: 1px;
+        margin-top: 2rem;
+        color: $color4;
+    }
+
+    >button {
+        padding: 1.2rem 2rem;
+        background-color: aliceblue;
+        cursor: pointer;
+        color: $color3;
+        font-size: 0.9rem;
+        border: none;
+        border-radius: 10px;
+        // margin-left: 0px;
+        margin-top: 3rem;
+        transition: all 0.2s;
+
+        &:hover {
+            background-color: $color3;
+            color: white;
+        }
+    }
+}
+
+#para4 {
+    color: $color2;
+}
+
+.icons {
+    margin: 5rem 5rem;
+    display: inline-block;
+    >img {
+        width: 7rem;
+        background: $color2_light;
+        padding: 2rem 2rem;
+        border-radius: 30%;
+
+    }
+
+    > p{
+        margin-top: 1rem;
+        letter-spacing: 1px;
+        color: rgb(95, 94, 94);
+    }
+}
