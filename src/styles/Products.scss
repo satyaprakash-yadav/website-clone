@@ -1,0 +1,57 @@
+img{
+    height: 100%;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.card{
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 9px 1px #888888; ;
+}
+.text{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: black;
+}
+.textLink{
+    margin-top: 5px;
+    margin-left: 20px;
+    padding-right: 40px;
+    text-align: justify;
+    line-height: 30px;
+    color: black;
+}
+.upperText{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    margin-top: 5rem;
+    display: flex;
+}
+.para{
+    margin-top: 5px;
+    margin-left: 20px;
+    text-align: justify;
+    color: black;
+}
+
+.conti{
+    margin-left: 20px;
+    padding-right: 40px;
+    text-align: justify;
+    line-height: 30px;
+    color: black;
+}
+.conti a{
+    text-decoration: none;
+}
+.conti a:hover{
+    color: red;
+}

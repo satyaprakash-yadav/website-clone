@@ -1,9 +1,81 @@
-article > img{
-    max-width: 60%;
-    box-shadow: rgb(74, 68, 68);
-    margin-left: 5rem;
+article {
+    >img {
+        max-width: 60%;
+        box-shadow: rgb(74, 68, 68);
+        margin-left: 5rem;
+    }
+    >p {
+        margin-top: -26rem;
+        color: $color2;
+        margin-left: 55rem;
+        font-weight: 400;
+        margin-bottom: 1.2rem;
+        font-size: 1.2rem;
+    }
+    
+    >h1 {
+        margin-left: 55rem;
+        margin-bottom: 2rem;
+        font-size: 1.8rem;
+    }
+    > h4{
+        color: $color4; 
+        font-weight: 400;   
+        margin-left: 55rem;
+        margin-bottom: 1.2rem;
+        font-size: 1.2rem;
+    }
+    >button {
+        margin-left: 55rem;
+        padding: 1.2rem 2rem;
+        background-color: $color3;
+        cursor: pointer;
+        color: $color1;
+        font-size: 1rem;
+        border: none;
+        border-radius: 10px;
+        margin-top: 2rem;
+        transition: all 0.2s;
+    
+        &:hover {
+            background-color: aliceblue;
+            color: $color3;
+        }
+    }
 }
 
-#side {
-    
+
+.service-container{
+    background-color: $color2;
+    margin-top: 3.8rem;
+    display: flex;
+    max-width: 100%;
+    > h1{
+        color: white;
+        padding: 7rem 5rem;
+        font-size: 4rem;
+    }
+    >p{
+        color: white;
+        padding: 8rem 2rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+    > button{
+        padding: 0rem 3rem;
+        font-weight: 500;
+        background-color: aliceblue;
+        cursor: pointer;
+        color: $color3;
+        font-size: 0.9rem;
+        border: none;
+        border-radius: 10px;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+        transition: all 0.2s;
+        &:hover {
+            background-color: $color3;
+            color: white;
+        }    
+    }   
 }

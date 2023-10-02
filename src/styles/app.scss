@@ -5,6 +5,8 @@
 @import "home";
 @import "studio";
 @import "service";
+@import "Products";
+@import "footer";
 
 * {
     margin: 0%;
@@ -28,3 +30,15 @@ body{
     cursor: not-allowed; 
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+    
+}
+
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background: orangered;
+    border-radius: 5px;
+}

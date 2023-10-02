@@ -4,6 +4,7 @@ import React from 'react'
 import Circle from '../assets/clock icon.png'
 import Spiral from '../assets/spiral-icon.jpg'
 import Cloud from '../assets/cloud icon.png'
+import Team from '../assets/team.jpg'
 
 const Studio = () => {
   return (
@@ -19,16 +20,16 @@ const Studio = () => {
       </div>
 
       <div className="background">
-      <div className="card">
-        <div className="container">
+        <img src={Team} alt="" />
+      </div>
+
+      <div className="cards">
           <p id='para4'>We are Avada Digital Agency</p>
           <h1>Analyze your <br /> entire market <br />pricing & stock<br /> availability</h1>
           <p>Mauris purus maecenas purus, aliquet lacus varius. Proin venenatis vel cras phasellus condimentum.</p>
           <button>Buy Avada Today</button>
-        </div>
       </div>
-      </div>
-
+  
       <div className="icons">
       <img src={Spiral} alt="" />
       <h1>Web & Mobile</h1>
